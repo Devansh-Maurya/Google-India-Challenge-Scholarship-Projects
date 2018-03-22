@@ -1,0 +1,70 @@
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <ImageView
+
+        android:src="@drawable/udacity"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="14"
+        android:scaleType="centerCrop" />
+
+    <TextView
+
+        android:text="Udacity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_weight="1"
+        android:textColor="#696960"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"/>
+
+    <TextView
+
+        android:text="2465 Latham St"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_weight="1"
+        android:textColor="#696960"
+        android:paddingLeft="20dp" />
+
+    <TextView
+
+        android:text="Mountain View, CA 94043"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_weight="1"
+        android:textColor="#696960"
+        android:paddingLeft="20dp"/>
+
+    <TextView
+
+        android:text="650-555-5555"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_weight="1"
+        android:textColor="#696960"
+        android:paddingLeft="20dp"/>
+
+    <TextView
+
+        android:text="www.udacity.com"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_weight="1"
+        android:textColor="#696960"
+        android:paddingLeft="20dp"
+        android:paddingBottom="100dp"/>
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+
+        android:src="@drawable/goodluck"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY" />
+
+    <TextView
+
+        android:text="Keep calm, 'cause its your exam !"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="39dp"
+        android:fontFamily="cursive"
+        android:textColor="#696960"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"/>
+
+</RelativeLayout>
